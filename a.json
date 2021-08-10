@@ -1,0 +1,65 @@
+{
+	"headerField": {
+		"indicator": "P",
+		"messageID": "CUCHE01",
+		"sequenceOrControlNumber": 1076,
+		"date": "20201210",
+		"time": "T16:13",
+		"reportingEvent": "SF",
+		"senderID": "ICDPALWALB",
+		"receiverID": "INPWL6",
+		"versionNo": "1"
+	},
+	"master": {
+		"declaration": {
+			"messageType": "F",
+			"portOfReporting": "INPWL6",
+			"jobNo": 1076,
+			"jobDate": "20201210",
+			"reportingEvent": "SF"
+		},
+		"location": {
+			"reportingPartyType": "C",
+			"reportingPartyCode": "AABCH4778A",
+			"reportingLocationCode": "INPWL6HTP1",
+			"reportingLocationName": "ICDPALWAL",
+			"authorisedPersonPAN": "AYDPB8137G"
+		},
+		"cargoContainer": [
+			{
+				"messageType": "F",
+				"equipmentSequenceNo": 1,
+				"equipmentID": "MEDU7181789",
+				"equipmentType": "CN",
+				"equipmentSize": "40",
+				"equipmentLoadStatus": "FCL",
+				"finalDestinationLocation": "INMUN1HMT1",
+				"eventDate": "20201207T19:32",
+				"equipmentSealType": "B",
+				"equipmentSealNumber": "073017",
+				"equipmentStatus": "94",
+				"equipmentQuantity": 2499,
+				"equipmentQUC": "CTN",
+				"cargoDetails": [
+					{
+						"messageType": "F",
+						"cargoSequenceNo": 1,
+						"documentType": "ESB",
+						"documentSite": "INPWL6",
+						"documentNumber": "6984569",
+						"documentDate": "20201204",
+						"shipmentLoadStatus": "P",
+						"packageType": "P",
+						"quantity": 2499,
+						"packetsFrom": 1,
+						"packetsTo": 1542,
+						"packUQC": "CTN",
+						"mcinPcin": "20PCEG1209399664000"
+					}
+                }
+						
+		                    ]
+
+
+
+    }
